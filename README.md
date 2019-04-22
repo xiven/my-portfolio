@@ -6,4 +6,8 @@ This repo makes use of AWS Serverless technologies and ReactJS.
 
 Git and GitHub
 SSH
+HTML
+CSS
+FontAwesome
+GoogleFonts
 

@@ -30,7 +30,8 @@
     <script crossorigin src="https://unpkg.com/babel-standalone"></script>
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script crossorigin src="https://unpkg.com/chai@4.2.0/chai.js"></script>
+    <script crossorigin src="https://unpkg.com/mocha@4.0.0/mocha.js"></script>
     <script type="text/babel" data-presets="react">
       class NameInput extends React.Component {
         constructor(props) {
@@ -80,6 +81,12 @@
         }
       }
       ReactDOM.render(<NameInput/>, document.getElementById('content'));
+    </script>
+    <script type="text/babel" data-presets="react">
+    const assert = chai.assert;
+
+    assert.equal(5, 3+2, "Math works!")
+
     </script>
 </body>
 </html>
